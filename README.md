@@ -19,5 +19,5 @@ This is a Next.js application that allows users to select a vehicle make and mod
 
 1. Clone the repository:
    ```bash
-   git clone `https://github.com/zatzk/car-dealer-app.git`
-   cd `car-dealer-app`
+   git clone <https://github.com/zatzk/car-dealer-app.git>
+   cd <car-dealer-app>
