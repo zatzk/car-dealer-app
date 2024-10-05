@@ -25,5 +25,33 @@ This is a Next.js application that allows users to select a vehicle make and mod
 
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/zatzk/car-dealer-app.git>
-   cd <car-dealer-app>
+    git clone https://github.com/zatzk/car-dealer-app.git
+    cd car-dealer-app
+    ```
+
+2. Install Dependencies
+
+  ```bash
+    npm install
+  ```
+
+3. Create a `.env.local` file in the root directory to store your environment variables. Add the following line to it:
+
+  ```bash
+    NEXT_PUBLIC_API_URL=https://vpic.nhtsa.dot.gov/api/vehicles/
+  ```
+
+4. Start the development server:
+
+ ```bash
+    npm run dev
+  ```
+
+5. Open your browser and go to http://localhost:3000 to view the app.
+
+
+### Usage
+
+Once the app is running, you can select a vehicle make from the dropdown menu.
+After selecting the make, choose the model year from the second dropdown.
+Click the "Next" button to retrieve and display the available vehicle models for the selected make and year.
