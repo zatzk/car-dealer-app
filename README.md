@@ -11,8 +11,8 @@ This is a Next.js application that allows users to select a vehicle make and mod
 ### Images
 
 ![Screenshot 1](/public/Screenshot1.png)
-![Screenshot 2](/public/Screenshot1)
-![Screenshot 3](/public/Screenshot1)
+![Screenshot 2](/public/Screenshot1.png)
+![Screenshot 3](/public/Screenshot1.png)
 
 ## Getting Started
 
